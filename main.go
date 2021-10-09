@@ -43,7 +43,6 @@ func userData(w http.ResponseWriter, r *http.Request){
             return
         }
     	key := keys[0]
-		fmt.Println(key)
 		switch k:=key; k{
 		case "1":
 			fmt.Println("Password: 1234@")
@@ -72,7 +71,6 @@ func postsData(w http.ResponseWriter, r *http.Request){
             return
         }
     	key := keys[0]
-		fmt.Println(key)
 		switch k:=key; k{
 		case "1":
 			fmt.Println(id1)
